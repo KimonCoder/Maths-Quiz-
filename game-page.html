@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Game-Page</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="game-page.css">
+    </head>
+    <body>
+        <div id="score">
+            <label id="play_1"></label>:<label id="play_1_s"></label>
+            <br>
+            <label id="play_2"></label>:<label id="play_2_s"></label>
+        </div>
+        <br>
+        <br>
+        <center>
+            <h3 id="title">Maths Quiz</h3>
+            <h3 id="ques"></h3>
+            <h3 id="ans"></h3>
+            <div class=col-lg-6 id="output"></div>
+            <br>
+            <input id="num1" type="password" placeholder="Number 1">
+            <input id="num2" type="password" placeholder="Number 2">
+            <button onclick="send()" id="Send">Send</button>
+        </center>
+        <script src="game-page.js"></script>
+    </body>
+</html>

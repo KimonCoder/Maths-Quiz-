@@ -1,0 +1,18 @@
+body{
+font-size:25px;
+background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+#score{
+float:left;
+}
+#title{
+color:orange;
+}
+#output{
+background:white;
+border-radius:10px;
+ border-top: 10px solid maroon;
+ padding:10px;
+ float:none;
+ text-align:left;
+}

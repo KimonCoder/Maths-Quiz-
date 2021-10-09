@@ -1,0 +1,21 @@
+body{
+    font-size:20px;
+    font-family:cursive;
+    background:linear-gradient(pink,purple);
+}
+#c1{
+    border-radius: 6px;
+    width:60%;
+    font-size:20px;
+}
+#c2{
+    border-radius: 6px;
+    width:60%;
+    font-size:20px;
+}
+#login{
+ width:25%;
+ background:linear-gradient(pink,aqua);
+ border-radius:6px;
+ font-size:25px;
+}
